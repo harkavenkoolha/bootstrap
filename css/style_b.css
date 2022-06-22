@@ -1,0 +1,74 @@
+@import "bootstrap.css";
+header {
+  position: absolute;
+  z-index: 2;
+}
+
+.main_banner {
+  background-image: url("../images/image 1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.main_banner.item_2 {
+  background-image: url("../images/image 2.jpg");
+}
+.main_banner.item_3 {
+  background-image: url("../images/images 3.jpg");
+}
+.main_banner.item_4 {
+  background-image: url("../images/image 4.jpg");
+}
+
+.firm_style {
+  padding-top: 68px;
+  padding-bottom: 134px;
+}
+
+.container .navbar .navbar-brand {
+  margin-right: 22px;
+}
+.container .navbar .p {
+  max-width: 193px;
+  margin-top: 32px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+header .container .navbar-nav .nav-item span {
+  color: #FFFFFF;
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+  border-radius: 15px;
+  padding: 7px 27px 7px 33px;
+  font-family: "20 Kopeek";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+header .container .navbar-nav .nav-item .facebook {
+  display: inline-flex;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  padding: 11px 14px;
+  margin: auto;
+}
+
+header .container .navbar-nav .nav-item img {
+  display: inline-flex;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style_b.css.map */
